@@ -1,0 +1,43 @@
+[
+{
+    "Machine_name" : "Auto Winding Machine",
+    "Machine_id" : "machine001",
+    "Energy_Consumed(kWh)" : {
+        "Today" : "0",
+        "MTD" : "0",
+        "YTD" : "0"
+    },
+    "Active_power(MW)" :"0",
+    "Apparent_power(MVA)" : "0",
+    "Reactive_power(MVAr)" : "0",
+    "Current(Amps)" : "0",
+    "Voltage(Volts)" : "0",
+    "Power_factor" : "0",
+    "Idle_Time" : {
+        "Today" : "0",
+        "MTD" : "0",
+        "YTD" : "0"
+    }
+},
+{
+    
+    "Machine_name" : "Boiler Machine",
+    "Machine_id" : "machine004",
+    "Energy_Consumed(kWh)" : {
+        "Today" : "0",
+        "MTD" : "0",
+        "YTD" : "0"
+    },
+    "Active_power(MW)" :"0",
+    "Apparent_power(MVA)" : "0",
+    "Reactive_power(MVAr)" : "0",
+    "Current(Amps)" : "0",
+    "Voltage(Volts)" : "0",
+    "Power_factor" : "0",
+    "Idle_Time" : {
+        "Today" : "0",
+        "MTD" : "0",
+        "YTD" : "0"
+    }
+}
+]
