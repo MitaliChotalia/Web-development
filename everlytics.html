@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everlytics</title>
+    <link rel = "stylesheet" href = "table.css">
+    <script type = "text/javascript" src = "everlytics.js"></script>
+</head>
+<body>
+    <table border = "1">
+        <caption><strong>Equipment-wise Details</strong></caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Machine_name</th>
+                <th rowspan="2" id = "style1">Machine_id</th>
+                <th colspan = "3">Energy_Consumed(kWh)</th>
+                <th rowspan="2" id = "style2">Active_power(MW)</th>
+                <th rowspan="2">Apparent_power(MVA)</th>
+                <th rowspan="2" id = "style3">Reactive_power(MVAr)</th>
+                <th rowspan="2">Current(Amps)</th>
+                <th rowspan="2" id = "style4">Voltage(Volts)</th>
+                <th rowspan="2">Power_factor</th>
+                <th colspan = "3" id = "style5">Idle_Time</th>
+            </tr>
+            <tr>
+                <th>Today</th>
+                <th>MTD</th>
+                <th>YTD</th>
+                <th class = "class1">Today</th>
+                <th class = "class2">MTD</th>
+                <th class = "class3">YTD</th>
+            </tr>
+        </thead>
+        <tbody id = "data-output">
+            <!--Populated from the javascript file-->
+        </tbody>
+    </table>
+</body>
+</html>
